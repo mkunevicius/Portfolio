@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Frontend developer Mindaugas Kunevicius portfolio page">
+  <meta name="author" content="Mindaugas Kunevicius">
+	<title>mindaugas.online</title>
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar">
+
+	<!-- jumbotron -->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container text-md-center m-t-3">
+			<h1 class="display-4" href="#about">MINDAUGAS . ONLINE</h1>
+			<p class="lead">Frontend developer / UI designer</p>
+		</div>
+	</div><!-- /jumbotron -->
+
+	<!-- video background -->
+	<div class="wrapper">
+    <video id="video" autoplay muted loop>
+      <source src="bub.mp4" type="video/mp4">
+    </video>
+	</div><!-- /video background -->
+
+	<div id="scroll"></div>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-dark hidden-xs">
+			<ul class="nav navbar-nav lead">
+				<li class="nav-item">
+					<a class="nav-link lead" href="#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#scroll">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+	</nav><!-- /navbar -->
+
+	<div id="content">
+		<div id="about">
+			<div class="container">
+				<h2 class="display-4 p-y-3">ABOUT</h2>
+				<p class="lead">I am expanding my competencies and starting career as a front-end developer, currently looking for a team to join. Previously I have been working as an architect (buildings, not computer systems) for 8 years. During the last six months of intense learning and building some real-life projects I have gained sufficient knowledge in these techniques:<br>
+				<br>
+				<strong>HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, Node.js, Express.js, Jade/Pug, Webpack, MySQL, Git.</strong><br>
+				<br>
+				After 8 years of my architectural career I have some project management skills as well as sensitivity to aesthetics, deeply conceptual approach and a good knowledge of:<br>
+				<br>
+				<strong>Adobe Photoshop, Adobe Illustrator, Autocad, Archicad</strong><br>
+				<br>
+				I can easily apply my design skills and comprehension to create great user experiences, interactive, responsive websites, web or mobile apps. I am eager to further deepen my knowledge in front-end development techniques (especially React.js).</p>
+			</div>
+		</div>
+
+		<div id="projects">
+			<div class="container">
+				<h2 class="display-4 p-y-3">PROJECTS</h2>
+
+				<div class="col-md-6 col-xl-4">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="img/img_05.jpg" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">kazlauskasphotography.lt</h4>
+							<p class="card-text">Responsive 4 pages website with the lightbox gallery for Photographer Juozas Kazlauskas Fund. Dynamically changing homepage background with custom jQuery. Restricted possibilities to copy/save images from the gallery.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-4">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="img/ndg2.jpg" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">a-d-s.lt</h4>
+							<p class="card-text">Responsive portfolio website for A.D.S architectural office running on Node.js with Express.js at server side, connected to MySQL database. Jade templates, CSS and JavaScript are used for building UI. Secured admin area on login.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-4">
+					<div class="card">
+						<div id="forPreview">
+							<video id="preview" autoplay muted loop>
+								<source src="bub.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="card-block">
+							<h4 class="card-title">mindaugas.online</h4>
+							<p class="card-text">This website. Built with Bootstrap and custom CSS3.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-4">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="img/20.jpg" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">dratele.com</h4>
+							<p class="card-text">Under construction... Photography portfolio website built with React.js, styled with custom CSS. Running on Node.js with Express.js at server side. Connected to MySQL database.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="contact">
+			<div class="container">
+				<h2 class="display-4 p-y-3">CONTACT</h2>
+				<p class="lead">I am currently looking for a frontend position in Vilnius, Lithuania, so if you have any questions or suggestions, please get in touch:
+					<span class="mail">
+						<a href="mailto:mkunevicius@gmail.com"><b>mkunevicius@gmail.com</b></a>
+					</span>
+				</p>
+				<div class="social text-xs-center">
+					<div>
+						<img class="portrait" src="img/m3.jpg" alt="picture of me">
+					</div>
+					<div>
+						<a href="https://www.linkedin.com/in/mindaugaskunevicius"><img src="img/cut-linkedin.svg" alt="LinkeIn Logo" class="social-icons"></a>
+						<a href="https://github.com/mkunevicius"><img src="img/cut-github.svg" alt="Github Logo" class="social-icons"></a>
+						<a href="https://www.facebook.com/profile.php?id=600401577"><img src="img/cut-facebook.svg" alt="Facebook Logo" class="social-icons"></a>
+						<a href="http://twitter.com/mkunevicius"><img src="img/cut-twitter.svg" alt="Twitter Logo" class="social-icons"></a>
+						<a href=""><img src="img/cut-share.svg" alt="" class="social-icons"></a>
+					</div>
+				</div><!-- /social -->
+			</div><!-- /container -->
+		</div><!-- /contact -->
+
+		<div class="arrow text-xs-center" id="footer">
+			<a href="#home"><img src="img/up-arrow2.svg" alt="up-arrow"></a>
+		</div>
+
+	</div><!-- /content -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
