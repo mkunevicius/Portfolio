@@ -23,7 +23,12 @@
   margin-top: 50%;
 }
 
-nav ul {
+nav {
+  z-index: 2000;
+  margin-bottom: -80px;
+}
+
+.nav {
   margin-top: 2%;
   max-width: 450px;
   margin-left: auto;
@@ -33,6 +38,7 @@ nav ul {
   border-top: 1px solid #ccc;
   text-align: center;
   padding: 0px 0px 0px 0px;
+  background-color: red;
 }
 
 a.nav-link {
@@ -41,23 +47,47 @@ a.nav-link {
   margin-left: 15px;
   padding: 13px;
   font-size: .9em;
+
 }
 
+.nav-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: -30px;
+}
+
+.nav-blue {
+  background-color: #daebf1;
+  box-shadow: 0 1px 5px #eee;
+  margin-top: -2%;
+  height: 8%;
+}
+
+.nav-blue ul {
+  border: none;
+}
 
 #video {
   position: absolute;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #home h1 {
   padding-top: 1em;
 }
 
+h2 {
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+}
+
 #content {
   position: absolute;
   width: 100%;
   margin-top: 20%;
+  padding-top: 2%;
   z-index: 1000;
 }
 
@@ -85,6 +115,45 @@ a.nav-link {
   width: 100%;
 }
 
+.card-block {
+  color: #eee;
+  background-color: #666;
+  margin-top: -10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-title {
+  color: #daebf1;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+.photo-overlay {
+	color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+  background: #fff;
+  opacity: 0;
+	transition: opacity .5s;
+  line-height: 1;
+}
+
+.photo-overlay:hover {
+	opacity: .3;
+}
+
+.photo-overlay p {
+  font-size: 3em;
+}
+
 .mail a {
   color: #666;
 }
@@ -102,7 +171,6 @@ a.nav-link {
 
 .social-icons:hover {
   height: 60px;
-  width: auto;
   margin: 0;
 }
 
@@ -112,14 +180,17 @@ a.nav-link {
   box-shadow: 0 0 1px #aaa;
 }
 
-
 #footer {
-  height: 350px;
+  height: 330px;
   background-color: #111;
 }
 
 .arrow img {
   margin-top: 100px;
+}
+
+.arrow img:hover {
+  opacity: 0.5;
 }
 
 
@@ -140,6 +211,7 @@ a.nav-link {
 
   #content {
     margin-top: 50%;
+    padding-top: 0;
   }
 
   .card-title,
@@ -149,6 +221,11 @@ a.nav-link {
 
   .social-icons {
     height: 40px;
+  }
+
+  .social-icons:hover {
+    height: 50px;
+    margin: 0;
   }
 
   .portrait {

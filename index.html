@@ -31,7 +31,7 @@
 	<div id="scroll"></div>
 
 	<!-- navbar -->
-	<nav class="navbar navbar-dark hidden-xs">
+	<nav class="navbar navbar-dark">
 			<ul class="nav navbar-nav lead">
 				<li class="nav-item">
 					<a class="nav-link lead" href="#home">Home <span class="sr-only">(current)</span></a>
@@ -51,10 +51,10 @@
 	<div id="content">
 		<div id="about">
 			<div class="container">
-				<h2 class="display-4 p-y-3">ABOUT</h2>
+				<h2 class="display-4">ABOUT</h2>
 				<p class="lead">I am expanding my competencies and starting career as a front-end developer, currently looking for a team to join. Previously I have been working as an architect (buildings, not computer systems) for 8 years. During the last six months of intense learning and building some real-life projects I have gained sufficient knowledge in these techniques:<br>
 				<br>
-				<strong>HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, Node.js, Express.js, Jade/Pug, Webpack, MySQL, Git.</strong><br>
+				<strong>HTML5, CSS3, JavaScript, React.js, jQuery, Bootstrap, Node.js, Express.js, Jade/Pug, Webpack, MySQL, Git.</strong><br>
 				<br>
 				After 8 years of my architectural career I have some project management skills as well as sensitivity to aesthetics, deeply conceptual approach and a good knowledge of:<br>
 				<br>
@@ -66,49 +66,82 @@
 
 		<div id="projects">
 			<div class="container">
-				<h2 class="display-4 p-y-3">PROJECTS</h2>
+				<h2 class="display-4">PROJECTS</h2>
 
 				<div class="col-md-6 col-xl-4">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="img/img_05.jpg" alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">kazlauskasphotography.lt</h4>
-							<p class="card-text">Responsive 4 pages website with the lightbox gallery for Photographer Juozas Kazlauskas Fund. Dynamically changing homepage background with custom jQuery. Restricted possibilities to copy/save images from the gallery.</p>
-						</div>
+						<a href="http://kazlauskasphotography.lt">
+							<img class="card-img-top img-fluid" src="img/img_05.jpg" alt="Card image cap">
+							<div class="card-block">
+								<h4 class="card-title">kazlauskasphotography.lt</h4>
+								<p class="card-text">Responsive 4 pages website with the lightbox gallery for Photographer Juozas Kazlauskas Fund. Dynamically changing homepage background with custom jQuery. Restricted possibilities to copy/save images from the gallery.</p>
+							</div>
+							<div class="photo-overlay">
+								<p class="display-4"><br>Go to page ></p>
+							</div>
+						</a>
 					</div>
 				</div>
 
 				<div class="col-md-6 col-xl-4">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="img/ndg2.jpg" alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">a-d-s.lt</h4>
-							<p class="card-text">Responsive portfolio website for A.D.S architectural office running on Node.js with Express.js at server side, connected to MySQL database. Jade templates, CSS and JavaScript are used for building UI. Secured admin area on login.</p>
-						</div>
+						<a href="http://a-d-s.lt">
+							<img class="card-img-top img-fluid" src="img/ndg2.jpg" alt="Card image cap">
+							<div class="card-block">
+								<h4 class="card-title">a-d-s.lt</h4>
+								<p class="card-text">Responsive portfolio web application for A.D.S architectural office running on Node.js with Express.js at server side, connected to MySQL database. Jade templates, CSS and JavaScript are used for building UI. Secured admin area on login.</p>
+							</div>
+							<div class="photo-overlay">
+								<p class="display-4"><br>Go to page ></p>
+							</div>
+						</a>
 					</div>
 				</div>
 
 				<div class="col-md-6 col-xl-4">
 					<div class="card">
-						<div id="forPreview">
+						<a href="http://mindaugas.online">
 							<video id="preview" autoplay muted loop>
 								<source src="bub.mp4" type="video/mp4">
 							</video>
-						</div>
-						<div class="card-block">
-							<h4 class="card-title">mindaugas.online</h4>
-							<p class="card-text">This website. Built with Bootstrap and custom CSS3.</p>
-						</div>
+							<div class="card-block">
+								<h4 class="card-title">mindaugas.online</h4>
+								<p class="card-text">This website. Built with Bootstrap and custom CSS3. HTML5 video element in the background.</p>
+							</div>
+							<div class="photo-overlay">
+								<p class="display-4"><br>Go to page ></p>
+							</div>
+						</a>
 					</div>
 				</div>
 
 				<div class="col-md-6 col-xl-4">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="img/20.jpg" alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">dratele.com</h4>
-							<p class="card-text">Under construction... Photography portfolio website built with React.js, styled with custom CSS. Running on Node.js with Express.js at server side. Connected to MySQL database.</p>
-						</div>
+						<a>
+							<img class="card-img-top img-fluid" src="img/20.jpg" alt="Card image cap">
+							<div class="card-block">
+								<h4 class="card-title">dratele.com</h4>
+								<p class="card-text">Ongoing project. Photography portfolio web application built with React.js using Webpack, styled with custom CSS. Running on Node.js with Express.js at server side. Connected to MySQL database.</p>
+							</div>
+							<div class="photo-overlay">
+								<p class="display-4"><br>Go to Github ]</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-4">
+					<div class="card">
+						<a href="https://github.com/mkunevicius">
+							<img class="card-img-top img-fluid" src="img/git.jpg" alt="Card image cap">
+							<div class="card-block">
+								<h4 class="card-title">my Github</h4>
+								<p class="card-text">Visit my Github page for other (demo) applications.</p>
+							</div>
+							<div class="photo-overlay">
+								<p class="display-4"><br>Go to Github ]</p>
+							</div>
+						</a>
 					</div>
 				</div>
 
@@ -117,7 +150,7 @@
 
 		<div id="contact">
 			<div class="container">
-				<h2 class="display-4 p-y-3">CONTACT</h2>
+				<h2 class="display-4">CONTACT</h2>
 				<p class="lead">I am currently looking for a frontend position in Vilnius, Lithuania, so if you have any questions or suggestions, please get in touch:
 					<span class="mail">
 						<a href="mailto:mkunevicius@gmail.com"><b>mkunevicius@gmail.com</b></a>
