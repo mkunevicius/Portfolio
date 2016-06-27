@@ -2,7 +2,6 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /*border: 1px solid black;*/
 }
 
 .wrapper {
@@ -60,12 +59,12 @@ a.nav-link {
 .nav-blue {
   background-color: #daebf1;
   box-shadow: 0 1px 5px #eee;
-  margin-top: -2%;
-  height: 8%;
+  height: 80px;
 }
 
 .nav-blue ul {
   border: none;
+  margin-top: 25px;
 }
 
 #video {
