@@ -67,10 +67,15 @@ a.nav-link {
   margin-top: 25px;
 }
 
-#video {
+#video,
+#backgroundImg {
   position: absolute;
   width: 100%;
   opacity: 0.6;
+}
+
+#backgroundImg {
+  display: none;
 }
 
 #home h1 {
@@ -110,7 +115,8 @@ h2 {
   padding-bottom: 4em;
 }
 
-#preview {
+#preview,
+#imgSmall {
   width: 100%;
 }
 
@@ -230,6 +236,21 @@ h2 {
   .portrait {
     height: 200px;
     width: auto;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  #video,
+  #preview {
+    display: none;
+  }
+
+  #backgroundImg,
+  #imgSmall {
+    display: block;
   }
 
 }
