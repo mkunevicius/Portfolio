@@ -1,3 +1,4 @@
+// nav elements leads to scrolling to body parts
 $(document).ready(function(){
 
     $("nav a").click(function(evn){
@@ -8,6 +9,9 @@ $(document).ready(function(){
 });
 
 
+
+
+// smoothly catching and scrolling with menu
 var nav = $("nav");
 
 $(window).scroll(function() {
