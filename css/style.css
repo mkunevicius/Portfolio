@@ -17,6 +17,10 @@
 .container {
   padding-bottom: 2em;
 }
+a.textLink {
+  color: rgb(25, 105, 130);
+  font-weight: bolder;
+}
 
 #scroll {
   margin-top: 50%;
