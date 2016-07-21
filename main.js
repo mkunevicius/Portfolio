@@ -31,3 +31,24 @@ $(window).scroll(function() {
     nav.addClass("navbar-dark");
   }
 });
+
+
+
+
+// Fibonacci sequence written in JavaScript
+// function Fibonacci() {
+//   this.recursive = function(n) {
+//     if (n <= 2) {
+//       return 1;
+//     } else {
+//       return this.recursive(n - 1) + this.recursive(n - 2);
+//     }
+//   }
+// }
+//
+// var f = new Fibonacci();
+// var sequence = "";
+// for (var i = 1; i <= 15; i++) {
+//   sequence += f.recursive(i) + " ";
+// }
+// console.log('Fibonacci sequence starts with: ', sequence + '...');
