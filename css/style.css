@@ -11,7 +11,6 @@
 .jumbotron {
   height: 500px;
   background: none;
-  z-index: 1000;
 }
 
 .container {
@@ -62,7 +61,7 @@ a.nav-link {
 
 .nav-blue {
   background-color: #daebf1;
-  box-shadow: 0 1px 5px #eee;
+  box-shadow: 0 1px 0 #eee;
   height: 80px;
 }
 
@@ -75,7 +74,7 @@ a.nav-link {
 #backgroundImg {
   position: absolute;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 #backgroundImg,
@@ -244,6 +243,14 @@ h2 {
   }
 
 }
+
+
+@media (max-width: 767px) and (orientation:landscape) {
+  #content {
+    margin-top: 18%;
+    padding-top: 0;
+}
+
 
 
 @media (max-width: 1024px) {

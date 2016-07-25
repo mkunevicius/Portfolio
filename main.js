@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 
 // smoothly catching and scrolling with menu
-var nav = $("nav");
+var nav = $(".navbar");
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > $("#video").height()*0.5) {
