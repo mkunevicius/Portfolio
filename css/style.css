@@ -244,15 +244,6 @@ h2 {
 
 }
 
-
-@media (max-width: 767px) and (orientation:landscape) {
-  #content {
-    margin-top: 18%;
-    padding-top: 0;
-}
-
-
-
 @media (max-width: 1024px) {
 
   #video,
@@ -265,4 +256,11 @@ h2 {
     display: block;
   }
 
+}
+
+
+@media (max-width: 767px) and (orientation:landscape) {
+  #content {
+    margin-top: 18%;
+    padding-top: 0;
 }
