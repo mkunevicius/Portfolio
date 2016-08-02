@@ -9,8 +9,11 @@
 }
 
 .jumbotron {
+  position: relative;
   height: 500px;
   background: none;
+  z-index: 10000;
+  color: #666;
 }
 
 .container {
